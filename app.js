@@ -17,7 +17,7 @@ console.log("server is running")
 })
 
 app.get('/',function(req,res){
-  res.render('index', {movies : movies})
+  res.render('index', {vacationContent:vacations})
 })
 
 
